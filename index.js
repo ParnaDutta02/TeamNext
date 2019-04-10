@@ -19,7 +19,7 @@ restService.post("/next", function(req, res) {
     req.body.result.parameters &&
     req.body.result.parameters.introduction
       ? req.body.result.parameters.introduction
-      : "Seems like some problem. Speak again.";
+      : "Seems like some problem. Please speak again.";
 
   var result="";
   var resultJson = require('./result.json');
